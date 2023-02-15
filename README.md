@@ -4,12 +4,15 @@ Certainly! Here's a simple obfuscation script that replaces all alphanumeric cha
 
 To use this script, save it to a file (e.g. obfuscate.sh) and make it executable by running:
 
+```
 chmod +x obfuscate.sh
+```
 
 Then, run the script and provide your original Bash script as the input file:
 
-
+```
 ./obfuscate.sh your_script_name.sh > obfuscated_script_name.sh
+```
 
 This will generate an obfuscated version of your Bash script named obfuscated_script_name.sh. You can then use this obfuscated script in place of your original script.
 
